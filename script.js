@@ -5,7 +5,9 @@ var today= $ (newdate());
 var newdate= today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var Time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 console.log(newdateTime)
-
+const dayjs = require('dayjs')
+//import dayjs from 'dayjs' // ES 2015
+dayjs().format()
 var moment = $ (newdateTime)
 // Display today's day and date
 //var todayDate = moment().format('MMMM Do YYYY, h:mm:ss a');
